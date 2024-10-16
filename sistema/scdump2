@@ -1,0 +1,2 @@
+#!/bin/bash
+mysqldump -uroot -ppyc89w --databases test > /rede/www/html/img_not/dump2.txt

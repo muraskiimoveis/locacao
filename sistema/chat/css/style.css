@@ -1,0 +1,82 @@
+html, body{
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+div,span,p{
+	margin: 0px;
+	padding: 0px;
+}
+.listausuarios{
+	padding: 5px;
+	overflow: auto;
+	border-top: 1px solid #DDD;
+}
+.listausuarios a{
+	display: block;
+	padding: 4px;
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+	margin: 0px;
+	background-color: #FFF;
+}
+.listausuarios a:hover{
+	display: block;
+	padding: 4px;
+	text-decoration: none;
+	color: #FFF;
+	background-color: #069;
+	font-weight: bold;
+	margin: 0px;
+}
+.nomeusuario{
+	margin: 20px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #069;
+}
+.nomeusuario a{
+	font-size: 14px;
+	color: #333;
+	text-decoration: none;
+}
+.nomeusuario a:hover{
+	font-size: 14px;
+	color: #333;
+	text-decoration: underline;
+}
+#status{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	z-index: 0;
+}
+.som{
+	font-size: 12px;
+	font-weight: normal;
+	color: #555;
+	margin-top: 10px;
+}	
+.msgalert{
+	color: #C00;
+}
+.msgreceive{
+	color: #F60;
+}
+.msgsend{
+	color: #069;
+}
+.direitos{
+	z-index: 0;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	color: #666;
+	font-size: 11px;
+}

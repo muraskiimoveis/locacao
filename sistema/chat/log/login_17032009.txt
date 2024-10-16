@@ -1,0 +1,2 @@
+[04:14:33][192.168.0.12] juliano entrou no chat - id 1
+[04:22:04][192.168.0.12] juliano entrou no chat - id 2

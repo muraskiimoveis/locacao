@@ -1,0 +1,10 @@
+<markers>
+ <marker name="Imóvel Destacado" address="Mal. Deodoro, 630 - Centro" lat="-25.430407918899984" lng="-49.26598870762973" type="ImRebri"/>
+ <marker name="Praça Santos Andrade" address="R. Amintas de Barros, 150" lat="-25.42864606956018" lng="-49.26670789718628" type="1"/>
+ <marker name="Correio Central" address="Rua XV de Novembro, 650" lat="-25.43023512629378" lng="-49.268317222595215" type="2"/>
+ <marker name="Restaurante X" address="Av. Sem número, 128" lat="-25.430738969175366" lng="-49.26441192626953" type="3"/>
+ <marker name="Restaurante Y" address="R. Nilo Cairo, 180" lat="-25.42994444674995" lng="-49.2647123336792" type="4"/>
+ <marker name="Terminal Guadalupe" address="Av. André de Barros, 630" lat="-25.432948101555528" lng="-49.26522731781006" type="5"/>
+ <marker name="Generoso Marques" address="Praça Generoso Marques, s/nº" lat="-25.429653766504934" lng="-49.26969051361084" type="3"/>
+ <marker name="Restaurante K" address="Av. Sem número, 190" lat="-25.4302738835133" lng="-49.26200866699219" type="5"/>
+</markers>

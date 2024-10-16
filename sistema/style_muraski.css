@@ -1,0 +1,191 @@
+body,td,th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+
+.style1 {
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+}
+
+.stylec {
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+.style2 {
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #993300;
+}
+.style3 {
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #E0E0E0;
+}
+
+.style6 {
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #0000ff;
+}
+
+.style7 {
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #ff0000;
+}
+
+.style17 {
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #cdcdcd;
+	}
+.style_rebri {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #000000;
+	text-decoration: none;
+}
+.style_rebri:Visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #000000;
+	text-decoration: none;
+}
+.style_rebri:Link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #000000;
+	text-decoration: none;
+}
+.style_rebri:Hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #000000;
+	text-decoration: none;
+}
+.style_rebri:Active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #000000;
+	text-decoration: none;
+}
+.style_html {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #666666;
+}
+.style48 {font-size: 12px; color: #666666; font-family: Verdana, Arial, Helvetica, sans-serif;}
+.style47 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #666666; font-weight: bold; }
+.style50 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #E0E0E0; font-weight: bold; }
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+.a2:link {
+	text-decoration: none;
+}
+.a2:visited {
+	text-decoration: none;
+}
+.a2:hover {
+	text-decoration: none;
+}
+.a2:active {
+	text-decoration: none;
+}
+
+.linkm { FONT-SIZE: 10 pt; COLOR: Black; FONT-FAMILY: Verdana, Helvetica; font-weight:none; TEXT-DECORATION: none }
+.linkm:hover {
+	text-decoration: underline;
+	color: blue;
+	}
+.link8 { FONT-SIZE: 8 pt; COLOR: Black; FONT-FAMILY: Verdana, Helvetica; font-weight:none; TEXT-DECORATION: none }
+.link8:hover {
+	text-decoration: underline;
+	color: blue;
+	}
+.linkp { FONT-SIZE: 7 pt; COLOR: Black; FONT-FAMILY: Verdana, Helvetica; font-weight:none; TEXT-DECORATION: none }
+.linkp:hover {
+	text-decoration: underline;
+	color: blue;
+	}
+.linkd { FONT-SIZE: 10 pt; COLOR: Black; FONT-FAMILY: Arial, Verdana, Helvetica; font-weight:bold; TEXT-DECORATION: none }
+.linkd:Visited  {
+	text-decoration : none;
+	color : white;
+}
+.campo  { font-size: 11px; background-color: #ffffff; border: 1px solid #000000; border-color: #000000 }
+
+.campo2  { font-size: 11px; color: #999999; background-color: #e2e2e2; border-width: 1; border-color: #000000 }
+.campo3  { 
+  
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	font-weight: bold;
+	background-image: url(images/fundo_bot.jpg);
+	border: 1px solid #B7B7B7;
+
+}
+
+.style1a {
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+	text-decoration:none;
+}
+
+#mapa{
+	width:750px;
+	height:540px;
+	float:center;
+	padding:0px;
+	margin-left:0px;
+	_margin-left:0px;
+	margin-bottom:0px;
+	border:0px solid #480000;
+	vertical-align:top;
+	
+}
+
+#mapa_site{
+	width:600px;
+	height:500px;
+	float:center;
+	padding:0px;
+	margin-left:0px;
+	_margin-left:0px;
+	margin-bottom:0px;
+	border:0px solid #480000;
+	vertical-align:top;
+	
+}
+
+BODY{
+scrollbar-face-color:'#FFFFFF';
+scrollbar-arrow-color:'#C5C9C5';
+scrollbar-track-color:'#FFFFFF';
+scrollbar-shadow-color:'#C5C9C5';
+scrollbar-highlight-color:'#C5C9C5';
+scrollbar-3dlight-color:'#FFFFFF';
+scrollbar-darkshadow-Color:'#FFFFFF';
+}

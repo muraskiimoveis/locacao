@@ -1,0 +1,3 @@
+Matriculas consultadas no site do cri que não estão
+cadastradas no nosso sistema. 
+sem referência.

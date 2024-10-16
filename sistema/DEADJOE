@@ -1,0 +1,40 @@
+
+*** These modified files were found in JOE when it aborted on Fri Dec 24 18:28:18 2010
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+5
+6
+6
+7
+9
+unzip -oX /rede/www/html/backup/venda/bkp-
+unzip -oX /rede/www/html/backup/venda_peq/bkp-
+unzip -oX /rede/www/html/backup/locacao/bkp-
+unzip -oX /rede/www/html/backup/loca_peq/bkp-
+locacao_peq
+
+*** File '(Unnamed)'
+memory
+upload
+memory
+size
+post_max
+ERROR
+error_reporting
+RUTH
+passareli
+9872
+
+*** File '(Unnamed)'
+scdump12
+envias12.log
+INSTALL
+INSTALL
+README
+sensors.conf
+bd_Sistema.txt
+scdump12
+bkpsitemura.sh
+bd_murasite.txt
+p_extrato_depositos.php
