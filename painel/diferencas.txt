@@ -1,0 +1,16 @@
+707c707
+< <form method="POST" action="/index.php?pag=cad_imovel" name="form66" id="form66">
+---
+> <form method="POST" action="/web/rebri/index.php?pag=cad_imovel" name="form66" id="form66">
+806c806
+< 				<form method="POST" action="http://www.redebrasileiradeimoveis.com.br/sistema/index.php" name="form5" id="form5">
+---
+> 				<form method="POST" action="http://192.168.0.1/web/rebri/sistema/index.php" name="form5" id="form5">
+1523c1523
+< <form method="POST" action="/index.php?pag=cad_imovel" name="form10">
+---
+> <form method="POST" action="/web/rebri/index.php?pag=cad_imovel" name="form10">
+1624c1624
+< <option value="Apartamento">Apartamento</option><option value="Casa">Casa</option><option value="Chácara">Chácara</option><option value="Cobertura">Cobertura</option><option value="Comercial">Comercial</option><option value="Fazenda">Fazenda</option><option value="Sobrado">Sobrado</option><option value="Terreno">Terreno</option>  </select><br />  </td>
+---
+> <option value="Apartamento">Apartamento</option><option value="Chácara">Chácara</option><option value="Cobertura">Cobertura</option><option value="Comercial">Comercial</option><option value="Fazenda">Fazenda</option><option value="Residência">Residência</option><option value="Sobrado">Sobrado</option><option value="Terreno">Terreno</option>  </select><br />  </td>

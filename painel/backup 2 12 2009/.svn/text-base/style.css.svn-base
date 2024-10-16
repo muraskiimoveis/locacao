@@ -1,0 +1,90 @@
+body,td,th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #000000;
+}
+body {
+	background-color: #ffffff;
+}
+
+.style1 {
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #000000;
+}
+.style2 {
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #000000;
+}
+.style3 {
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #ffffff;
+}
+.style4 {
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #ff0000;
+}
+.style5 {
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #0000ff;
+}
+.style6 {
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #0000ff;
+}
+.style7 {
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #ff0000;
+}
+.style8 {
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+	font-size: 7pt;
+	color: #717171;
+}
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+
+.linkm { FONT-SIZE: 8 pt; COLOR: Black; FONT-FAMILY: Verdana, Helvetica; font-weight:none; TEXT-DECORATION: none }
+.linkm:hover {
+	text-decoration: underline;
+	color: blue;
+	}
+.linkp { FONT-SIZE: 7 pt; COLOR: Black; FONT-FAMILY: Verdana, Helvetica; font-weight:none; TEXT-DECORATION: none }
+.linkp:hover {
+	text-decoration: underline;
+	color: blue;
+	}
+.linkd { FONT-SIZE: 10 pt; COLOR: Black; FONT-FAMILY: Arial, Verdana, Helvetica; font-weight:bold; TEXT-DECORATION: none }
+.linkd:Visited  {
+	text-decoration : none;
+	color : white;
+}
+.campo  { font-size: 9 pt; background-color: #ffffff; border-width: 1; border-color: #000000 }
+.campo2  { font-size: 9 pt; color: #0000ff; background-color: #e2e2e2; border-width: 1; border-color: #000000 }
+.campo3  { font-size: 9 pt; color: #0000ff; background-color: #c1c1c1; border-width: 1; border-color: #ffffff }
+BODY{
+scrollbar-face-color:'#C5C9C5';
+scrollbar-arrow-color:'#FFFFFF';
+scrollbar-track-color:'#FFFFFF';
+scrollbar-shadow-color:'#FFFFFF';
+scrollbar-highlight-color:'#FFFFFF';
+scrollbar-3dlight-color:'#FFFFFF';
+scrollbar-darkshadow-Color:'#FFFFFF';
+}

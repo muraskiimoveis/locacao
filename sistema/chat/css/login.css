@@ -1,0 +1,67 @@
+html, body{
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+label{
+	font-weight: bold;
+}
+
+div,span,p{
+	margin: 0px;
+	padding: 0px;
+}
+.bordalogin{
+	width: 600px;
+	padding: 10px;
+	margin: auto;
+	margin-top: 15px;
+	border: 1px solid #CCC;
+	height: 300px;
+}
+.bordalogin input{
+	border: 1px solid #999;
+	color: #069;
+	background-color: #FFF;
+	width: 150px;
+}
+.botao{
+	font-size: 14px;
+	padding: 5px;
+	width: 60px !important;
+	border: 2px solid #999 !important;
+}
+.bordalogin form{
+	margin-top: 20px;
+}
+.erro{
+	color: #C00;
+	font-weight: bold;
+	height: 25px;
+	margin-top: 30px;
+}
+.colunadir{
+	padding: 5px;
+	border-right: 1px solid #CCC;
+	height: 290px;
+	float: left;
+	width: 285px;
+}
+.colunaesq{
+	padding: 5px;
+	height: 290px;
+	float: right;
+	width: 285px;
+}
+.titulo{
+	margin-bottom: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #069;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #CCC;
+}

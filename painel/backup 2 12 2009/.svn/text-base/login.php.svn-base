@@ -1,0 +1,56 @@
+<?php
+ini_set('session.cache_expire', 1440); // 1440 minutos = 1 dia
+ini_set('session.cache_limiter', 'none');
+ini_set('session.cookie_lifetime', 0); // O indica que morre quando o browser fecha
+ini_set('session.gc_maxlifetime', 86400); // 86400 segundos = 1 dia
+session_start();
+?>
+<?php
+include("conect.php");
+
+if ($logoff <> "") {
+
+		unset($_SESSION[usu_nome]);
+		unset($_SESSION[usu_email]);
+		unset($_SESSION[usu_tipo]);
+		unset($_SESSION[rebricbr]);
+
+   	header( "location: $url\r\n" );
+}
+
+if(($email <> "") and ($senha <> "")) {
+
+   $email = addslashes($email);
+   $senha = md5($senha);
+   //$senha = base64_encode($senha);
+
+   $query0 = "select * from rebri_usuarios where u_email='$email' and u_senha='$senha'";
+   $result0 = mysql_query($query0) or die("Não foi possível pesquisar suas informações. $query0");
+	$numrows = mysql_num_rows($result0);
+	if ($numrows > 0) {
+
+	   while($not0 = mysql_fetch_array($result0)) {
+         //$query1 = "insert into login (email, data_hora, senha)
+         //values('$not0[u_email]', current_timestamp, '$senha')";
+         //$result1 = mysql_query($query1) or die("Não foi possível inserir suas informações.");
+
+         $_SESSION['usu_email'] = $not0[u_email];
+         $_SESSION['usu_tipo'] = $not0[u_tipo];
+         $_SESSION['usu_nome'] = $not0[u_nome];
+         $_SESSION['usu_cod'] = $not0[u_cod];
+         $_SESSION['rebricbr'] = "1";
+			$_SESSION['dominio'] = $_SERVER['SERVER_NAME'];
+			$_SESSION['painel'] = "painel";
+         $_SESSION['session_id'] = session_id();
+         $sid = session_id();
+      	$url = "index.php";
+
+      	header( "location: $url\r\n" );
+
+      }
+	} else {
+      echo ('<script language="javascript">alert("E-mail e/ou Senha Inválidos");document.location.href="index.php";</script>');
+	}
+
+}
+?>

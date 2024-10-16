@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Root>
+ <Row>
+   <Latitude>-25.42864606956018</Latitude>
+   <Longitude>-49.26670789718628</Longitude>
+   <Nome>Praça Santos Andrade</Nome>
+   <Endereco>R. Amintas de Barros, 150</Endereco>
+   <Tipo>Praça</Tipo>
+   <Imagem>http://www.redebrasileiradeimoveis.com.br/sistema/images/blue-dot.png</Imagem>
+   <Sombra>http://www.redebrasileiradeimoveis.com.br/sistema/images/sombra_muraski.png</Sombra>
+   <TImagem>42, 33</TImagem>
+   <TSombra>42, 33</TSombra>
+ </Row>
+ <Row>
+   <Latitude>-25.43023512629378</Latitude>
+   <Longitude>-49.268317222595215</Longitude>
+   <Nome>Correio Central</Nome>
+   <Endereco>Rua XV de Novembro, 650</Endereco>
+   <Tipo>Correios</Tipo>
+   <Imagem>http://www.redebrasileiradeimoveis.com.br/sistema/images/blue-dot.png</Imagem>
+   <Sombra>http://www.redebrasileiradeimoveis.com.br/sistema/images/sombra_muraski.png</Sombra>
+   <TImagem>42, 33</TImagem>
+   <TSombra>42, 33</TSombra>
+ </Row>
+ <Row>
+   <Latitude>-25.430738969175366</Latitude>
+   <Longitude>-49.26441192626953</Longitude>
+   <Nome>Restaurante X</Nome>
+   <Endereco>Av. Sem número, 128</Endereco>
+   <Tipo>Restaurante</Tipo>
+   <Imagem>http://www.redebrasileiradeimoveis.com.br/sistema/images/blue-dot.png</Imagem>
+   <Sombra>http://www.redebrasileiradeimoveis.com.br/sistema/images/sombra_muraski.png</Sombra>
+   <TImagem>42, 33</TImagem>
+   <TSombra>42, 33</TSombra>
+ </Row>
+ <Row>
+   <Latitude>-25.42994444674995</Latitude>
+   <Longitude>-49.2647123336792</Longitude>
+   <Nome>Restaurante Y</Nome>
+   <Endereco>R. Nilo Cairo, 180</Endereco>
+   <Tipo>Restaurante</Tipo>
+   <Imagem>http://www.redebrasileiradeimoveis.com.br/sistema/images/blue-dot.png</Imagem>
+   <Sombra>http://www.redebrasileiradeimoveis.com.br/sistema/images/sombra_muraski.png</Sombra>
+   <TImagem>42, 33</TImagem>
+   <TSombra>42, 33</TSombra>
+ </Row>
+ <Row>
+   <Latitude>-25.432948101555528</Latitude>
+   <Longitude>-49.26522731781006</Longitude>
+   <Nome>Terminal Guadalupe</Nome>
+   <Endereco>Av. André de Barros, 630</Endereco>
+   <Tipo>Onibus</Tipo>
+   <Imagem>http://www.redebrasileiradeimoveis.com.br/sistema/images/blue-dot.png</Imagem>
+   <Sombra>http://www.redebrasileiradeimoveis.com.br/sistema/images/sombra_muraski.png</Sombra>
+   <TImagem>42, 33</TImagem>
+   <TSombra>42, 33</TSombra>
+ </Row>
+ <Row>
+   <Latitude>-25.429653766504934</Latitude>
+   <Longitude>-49.26969051361084</Longitude>
+   <Nome>Generoso Marques</Nome>
+   <Endereco>Praça Generoso Marques, s/nº</Endereco>
+   <Tipo>Praca</Tipo>
+   <Imagem>http://www.redebrasileiradeimoveis.com.br/sistema/images/blue-dot.png</Imagem>
+   <Sombra>http://www.redebrasileiradeimoveis.com.br/sistema/images/sombra_muraski.png</Sombra>
+   <TImagem>42, 33</TImagem>
+   <TSombra>42, 33</TSombra>
+ </Row>
+ <Row>
+   <Latitude>-25.4302738835133</Latitude>
+   <Longitude>-49.26200866699219</Longitude>
+   <Nome>Restaurante K</Nome>
+   <Endereco>Av. Sem número, 190</Endereco>
+   <Tipo>Restaurante</Tipo>
+   <Imagem>http://www.redebrasileiradeimoveis.com.br/sistema/images/blue-dot.png</Imagem>
+   <Sombra>http://www.redebrasileiradeimoveis.com.br/sistema/images/sombra_muraski.png</Sombra>
+   <TImagem>42, 33</TImagem>
+   <TSombra>42, 33</TSombra>
+ </Row>
+</Root>

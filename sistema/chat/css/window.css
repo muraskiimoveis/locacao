@@ -1,0 +1,99 @@
+.janela{
+	width: 300px;
+	border: 1px solid #999;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	position: absolute;
+	top: 50px;
+	overflow: hidden;
+	background-color: #FFF;
+	z-index: 2;
+}
+.janelaover{
+	width: 300px;
+	border: 1px solid #F60;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	position: absolute;
+	top: 50px;
+	overflow: hidden;
+	background-color: #FFF;
+}
+.conversa{
+	height: 200px;
+	padding: 5px;
+	margin: 0px;
+	overflow: auto;
+	border-bottom: 1px solid #DDD;
+	border-top: 1px solid #DDD;
+}
+.conversa p{
+	display: block;
+	margin: 0px;
+	padding: 5px;
+	padding-top: 0px;
+}
+.conversa p span{
+	font-weight: bold;
+}
+.envio{
+	border: 1px solid #DDD;
+	height: 57px;
+}
+.envio input{
+	display: block;
+	float: left;
+	height: 46px;
+	margin: 3px;
+	border: 1px solid #FFF;
+	width: 210px;
+	margin-right: 0px;
+	color: #069;
+}
+.envio img{
+	float: right;
+	margin: 3px;
+	padding: 0px;
+	margin-left: 0px;
+	cursor: pointer;
+}
+.opcoes{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	height: 15px;
+	padding: 3px;
+	padding-left: 5px;
+	background-color: #F5F5F5;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+	color: #666;
+}
+.topo{
+	height: 25px;
+	padding: 0px;
+	border-bottom: 1px solid #999;
+	background-color: #F5F5F5;
+}
+.topo span{
+	padding: 5px;
+	display: block;
+	width: 260px;
+	float: left;
+	overflow: hidden;
+	font-weight: bold;
+	color: #069;
+	cursor: move;
+}
+.topo a{
+	display: inline;
+	width: 18px;
+	height: 18px;
+	float: right;
+	text-decoration: none;
+	margin: 3px;
+	background-color: #FFF;
+	background-image: url(close.jpg);
+}
+.topo a:hover{
+	background-image: url(closeover.jpg);
+}

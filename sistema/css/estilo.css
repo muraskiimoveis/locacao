@@ -1,0 +1,44 @@
+.TdTitulo{
+	background:#CCCCCC;
+	font-weight:bold;
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding: 4px;
+}
+
+.TdSubTitulo{
+	background:#EEEEEE;
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding: 4px;
+}
+
+.NaoLida{
+	font-weight:bold;
+	color:#FF0000;
+}
+
+.Lida{
+	color:#999999;
+}
+
+a.LinkNaoLida:link{
+	color:#FF0000;
+}
+a.LinkNaoLida:visited{
+	color:#FF0000;
+}
+a.LinkNaoLida:hover{
+	color:#FF0000;
+}
+
+.DivBairros{
+	float:left;
+	width: 150px;
+}
+
+.DivCaracteristicas{
+	float:left;
+	width: 130px;
+}
+

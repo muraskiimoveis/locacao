@@ -1,0 +1,78 @@
+/*
+---------------------------------------------------------------------------------------------------------------------
+	*** Estilos css para uso no sistema ***
+	
+	- Antes de criar outra regra tente utilizar uma regra existente que mais se encaixe no contexto a ser utilizado.
+---------------------------------------------------------------------------------------------------------------------
+*/
+
+/****************************************************************
+	Começo - Estilos para os botões do menu superior do sistema
+****************************************************************/
+
+/* Botão do menu */
+td.botaoMenu
+{
+	background-color: #E0E0E0;
+	border: 1px solid #c4c4c4;
+}
+
+/* Fundo externo do botão do menu */
+td.fundoBotao
+{
+	background-color: #E0E0E0;
+}
+
+/****************************************************************
+	Fim - Estilos para os botões do menu superior do sistema
+****************************************************************/
+
+/****************************************************************
+	Começo - Estilos das tabelas internas
+****************************************************************/
+
+/* Fundo das tabelas */
+tr.fundoTabela, td.fundoTabela, table.fundoTabela
+{
+	background: #EDEEEE;
+}
+
+/* Fundo das tabelas com destaque */
+tr.fundoTabelaDestaque, td.fundoTabelaDestaque
+{
+	background: #dbdbdb;
+}
+
+/* Links dentro das tabelas em destaque */
+tr.fundoTabelaDestaque a, td.fundoTabelaDestaque a
+{
+	color: #444444;
+}
+
+/* Fundo escuro das tabelas - Destaques em títulos  */
+tr.fundoTabelaTitulo, td.fundoTabelaTitulo
+{
+	background: #cccccc;
+}
+
+/* Cor 1 para o fundo da tabela - Exibição alternada de cores */
+tr.fundoTabelaCor1, td.fundoTabelaCor1
+{
+	background: #f5f5f5;	
+}
+
+/* Cor 2 para o fundo da tabela - Exibição alternada de cores */
+tr.fundoTabelaCor2, td.fundoTabelaCor2
+{
+	background: #ebebeb;	
+}
+
+/* Borda utitlizada para destacar uma tabela */
+table.bordaTabelaDestaque
+{
+	border: 1px solid #CDCDCD;
+}
+
+/****************************************************************
+	Fim - Estilos das tabelas internas
+****************************************************************/

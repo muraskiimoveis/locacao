@@ -1,0 +1,222 @@
+.anylinkcss1{
+position:absolute;
+visibility: hidden;
+border:1px solid #eeeeee;
+border-bottom-width: 0;
+font:normal 10px Verdana;
+line-height: 14px;
+z-index: 100;
+background-color: #E0E0E0;
+width: 225px;
+}
+
+.anylinkcss2{
+position:absolute;
+visibility: hidden;
+border:1px solid #eeeeee;
+border-bottom-width: 0;
+font:normal 10px Verdana;
+line-height: 14px;
+z-index: 100;
+background-color: #E0E0E0;
+width: 190px;
+}
+
+.anylinkcss3{
+position:absolute;
+visibility: hidden;
+border:1px solid #eeeeee;
+border-bottom-width: 0;
+font:normal 10px Verdana;
+line-height: 14px;
+z-index: 100;
+background-color: #E0E0E0;
+width: 185px;
+}
+
+.anylinkcss4{
+position:absolute;
+visibility: hidden;
+border:1px solid #eeeeee;
+border-bottom-width: 0;
+font:normal 10px Verdana;
+line-height: 14px;
+z-index: 100;
+background-color: #E0E0E0;
+width: 200px;
+}
+
+.anylinkcss5{
+position:absolute;
+visibility: hidden;
+border:1px solid #eeeeee;
+border-bottom-width: 0;
+font:normal 10px Verdana;
+line-height: 14px;
+z-index: 100;
+background-color: #E0E0E0;
+width: 115px;
+}
+
+.anylinkcss6{
+position:absolute;
+visibility: hidden;
+border:1px solid #eeeeee;
+border-bottom-width: 0;
+font:normal 10px Verdana;
+line-height: 14px;
+z-index: 100;
+background-color: #E0E0E0;
+width: 130px;
+}
+
+.anylinkcss7{
+position:absolute;
+visibility: hidden;
+border:1px solid #eeeeee;
+border-bottom-width: 0;
+font:normal 10px Verdana;
+line-height: 14px;
+z-index: 100;
+background-color: #E0E0E0;
+width: 130px;
+}
+
+.anylinkcss8{
+position:absolute;
+visibility: hidden;
+border:1px solid #eeeeee;
+border-bottom-width: 0;
+font:normal 10px Verdana;
+line-height: 14px;
+z-index: 100;
+background-color: #E0E0E0;
+width: 180px;
+}
+
+.anylinkcss1 a{
+width: 100%;
+display: block;
+text-indent: 3px;
+border-bottom: 1px solid #eeeeee;
+padding: 2px 0;
+text-decoration: none;
+font-weight: none;
+text-indent: 5px;
+}
+
+.anylinkcss2 a{
+width: 100%;
+display: block;
+text-indent: 3px;
+border-bottom: 1px solid #eeeeee;
+padding: 2px 0;
+text-decoration: none;
+font-weight: none;
+text-indent: 5px;
+}
+.anylinkcss3 a{
+width: 100%;
+display: block;
+text-indent: 3px;
+border-bottom: 1px solid #eeeeee;
+padding: 2px 0;
+text-decoration: none;
+font-weight: none;
+text-indent: 5px;
+}
+
+.anylinkcss4 a{
+width: 100%;
+display: block;
+text-indent: 3px;
+border-bottom: 1px solid #eeeeee;
+padding: 2px 0;
+text-decoration: none;
+font-weight: none;
+text-indent: 5px;
+}
+
+.anylinkcss5 a{
+width: 100%;
+display: block;
+text-indent: 3px;
+border-bottom: 1px solid #eeeeee;
+padding: 2px 0;
+text-decoration: none;
+font-weight: none;
+text-indent: 5px;
+}
+
+.anylinkcss6 a{
+width: 100%;
+display: block;
+text-indent: 3px;
+border-bottom: 1px solid #eeeeee;
+padding: 2px 0;
+text-decoration: none;
+font-weight: none;
+text-indent: 5px;
+}
+
+.anylinkcss7 a{
+width: 100%;
+display: block;
+text-indent: 3px;
+border-bottom: 1px solid #eeeeee;
+padding: 2px 0;
+text-decoration: none;
+font-weight: none;
+text-indent: 5px;
+}
+
+.anylinkcss8 a{
+width: 100%;
+display: block;
+text-indent: 3px;
+border-bottom: 1px solid #eeeeee;
+padding: 2px 0;
+text-decoration: none;
+font-weight: none;
+text-indent: 5px;
+}
+
+.anylinkcss1 a:hover{ /*hover background color*/
+background-color: #C4C4C4;
+color: #575757;
+}
+
+.anylinkcss2 a:hover{ /*hover background color*/
+background-color: #C4C4C4;
+color: #575757;
+}
+
+.anylinkcss3 a:hover{ /*hover background color*/
+background-color: #C4C4C4;
+color: #575757;
+}
+
+.anylinkcss4 a:hover{ /*hover background color*/
+background-color: #C4C4C4;
+color: #575757;
+}
+
+.anylinkcss5 a:hover{ /*hover background color*/
+background-color: #C4C4C4;
+color: #575757;
+}
+
+.anylinkcss6 a:hover{ /*hover background color*/
+background-color: #C4C4C4;
+color: #575757;
+}
+
+.anylinkcss7 a:hover{ /*hover background color*/
+background-color: #C4C4C4;
+color: #575757;
+}
+
+.anylinkcss8 a:hover{ /*hover background color*/
+background-color: #C4C4C4;
+color: #575757;
+}

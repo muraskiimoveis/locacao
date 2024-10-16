@@ -1,0 +1,32 @@
+<html>
+
+<head>
+<?php
+include("style.php");
+?>
+</head>
+<body topmargin=0 leftmargin=0 rightmargin=0>
+<?php
+include("menu_painel.php");
+?>
+<br>
+<p align="center"><font color="#000080" size="2" face="Arial"><b>Muraski Imóveis -- Enviar Arquivos do Sistema</b>
+<br><br>
+<?
+ $novonome = $func_file_name;
+
+ if(!copy($func_file, "/rede/www/html/muraski/" . $novonome))
+ {
+
+  print "<p align=\"center\"><font face=\"verdana\" size=\"2\"><b>Problema
+no upload do arquivo.</b></p></font>";
+ }
+ else
+ {
+  print "Ok!";
+ }
+?>
+
+</body>
+
+</html>
