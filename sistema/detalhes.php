@@ -52,6 +52,11 @@ if($_GET['codi']){
 }else{
  $codi = $_POST['codi'];
 }
+if($_GET['cod']){
+	$cod = $_GET['cod'];
+   }else{
+	$cod = $_POST['cod'];
+}
 
 if($codi == $_SESSION['cod_imobiliaria']){
   $codi = $_SESSION['cod_imobiliaria'];
@@ -85,7 +90,7 @@ include("menu.php");
 <table border="0" cellpadding="1" cellspacing="1" width="75%">
   <tr height="50">
     <td>
-      <p align="center" class="style48"><b>Detalhes do Imóvel</b> - <a href="detalhes_impressao.php?cod=<?=$cod ?>&codi=<?=$codi ?>&pastai=<?=$pastai ?>&nomei=<?=$nomei ?>" class="style48" target="_blank">Clique para Imprimir</a></p>
+      <p align="center" class="style48"><b>Detalhes do Imï¿½vel</b> - <a href="detalhes_impressao.php?cod=<?=$cod ?>&codi=<?=$codi ?>&pastai=<?=$pastai ?>&nomei=<?=$nomei ?>" class="style48" target="_blank">Clique para Imprimir</a></p>
     </td>
   </tr>
 <?php
@@ -149,7 +154,7 @@ include("menu.php");
 		$ano = date("Y");
 	}
 
-		### inicialização de variaveis
+		### inicializaï¿½ï¿½o de variaveis
                 $mes01 = array();
                 $mes02 = array();
                 $mes03 = array();
@@ -217,7 +222,7 @@ include("menu.php");
    	}
   }
 
-	if(($not1[local] == "Caiobá") or ($not1[local] == "Matinhos")){
+	if(($not1[local] == "Caiobï¿½") or ($not1[local] == "Matinhos")){
 		$arquivo = "emissor.swf?mapa=matinhos&posx=" . $not1[posx] . "&posy=" . $not1[posy];
 	}
 	else
@@ -240,25 +245,25 @@ if($not1[finalidade]=='1'){
 }elseif($not1[finalidade]=='7'){
   $fin = "Venda_Todos";
 }elseif($not1[finalidade]=='8'){
-  $fin = "Locação_Anual_Rebri";
+  $fin = "Locaï¿½ï¿½o_Anual_Rebri";
 }elseif($not1[finalidade]=='9'){
-  $fin = "Locação_Anual_".$nomei;
+  $fin = "Locaï¿½ï¿½o_Anual_".$nomei;
 }elseif($not1[finalidade]=='10'){
-  $fin = "Locação_Anual_Parceria";
+  $fin = "Locaï¿½ï¿½o_Anual_Parceria";
 }elseif($not1[finalidade]=='11'){
-  $fin = "Locação_Anual_Terceiros";
+  $fin = "Locaï¿½ï¿½o_Anual_Terceiros";
 }elseif($not1[finalidade]=='12'){
-  $fin = "Locação_Anual_Off";
+  $fin = "Locaï¿½ï¿½o_Anual_Off";
 }elseif($not1[finalidade]=='13'){
-  $fin = "Locação_Anual_Locado";
+  $fin = "Locaï¿½ï¿½o_Anual_Locado";
 }elseif($not1[finalidade]=='14'){
-  $fin = "Locação_Anual_Todos";
+  $fin = "Locaï¿½ï¿½o_Anual_Todos";
 }elseif($not1[finalidade]=='15'){
-  $fin = "Locação_Temporada_".$nomei;
+  $fin = "Locaï¿½ï¿½o_Temporada_".$nomei;
 }elseif($not1[finalidade]=='16'){
-  $fin = "Locação_Temporada_Off";
+  $fin = "Locaï¿½ï¿½o_Temporada_Off";
 }elseif($not1[finalidade]=='17'){
-  $fin = "Locação_Temporada_Todos";
+  $fin = "Locaï¿½ï¿½o_Temporada_Todos";
 }
 
 ?>
@@ -387,8 +392,8 @@ rotate(++x);window.setTimeout("apRotate()", 5000);}
 <input type=button onClick="rotate(0);" value="|&lt;&lt;" title="Primeira Foto" class=campo3>
 <input type=button onClick="rotate(x-1);" value="<<" title="Foto Anterior" class=campo3>
 <input type=button name="slidebutton" onClick="this.value=((this.value=='Parar')?'Iniciar':'Parar');apRotate();" value="Iniciar" title="Mudar Automaticamente" class=campo3>
-<input type=button onClick="rotate(x+1);" value=">>" title="Próxima Foto" class=campo3>
-<input type=button onClick="rotate(this.form.slide.length-1);" value="&gt;&gt;|" title="Última Foto" class=campo3>
+<input type=button onClick="rotate(x+1);" value=">>" title="Prï¿½xima Foto" class=campo3>
+<input type=button onClick="rotate(this.form.slide.length-1);" value="&gt;&gt;|" title="ï¿½ltima Foto" class=campo3>
 </td><td width=228 align=center>
 <select name="slide" onChange="rotate(this.selectedIndex);" class=campo>
 <?php
@@ -478,12 +483,12 @@ rotate(++x);window.setTimeout("apRotate()", 5000);}
 ?>
     </td></tr>
 <tr><td width="20%" class="style48">
-<b>Metragem:</b></td><td width="80%" class="style48"><?php print("$metragem"); ?> m²</td></tr>
+<b>Metragem:</b></td><td width="80%" class="style48"><?php print("$metragem"); ?> mï¿½</td></tr>
 					<? if($not1['averbacao'] != '0.00'){ 
 					$averbacao = str_replace(".",",","$not1[averbacao]");
 					?>
 					<tr>
-					  <td class=style48><b>&Aacute;rea averbada:</b></td><td class="style48"> <?= $averbacao ?> m² </td>
+					  <td class=style48><b>&Aacute;rea averbada:</b></td><td class="style48"> <?= $averbacao ?> mï¿½ </td>
 	    </tr>
 					 <? } ?>
 					 
@@ -491,14 +496,14 @@ rotate(++x);window.setTimeout("apRotate()", 5000);}
 					 $area_terreno = str_replace(".",",","$not1[area_terreno]");
 					 ?>
 					<tr>
-					  <td class=style48><b>&Aacute;rea do terreno:</b></td><td class="style48"> <?= $area_terreno ?> m²</td>
+					  <td class=style48><b>&Aacute;rea do terreno:</b></td><td class="style48"> <?= $area_terreno ?> mï¿½</td>
 	    </tr>
 					<? } ?>
 <?php
 	if($not1[n_quartos] > 0){
 ?>
 <tr><td width="20%" class="style48">
-<b>N° de quartos:</b></td><td width="80%" class="style48"><?php print("$not1[n_quartos]"); ?></td></tr>
+<b>Nï¿½ de quartos:</b></td><td width="80%" class="style48"><?php print("$not1[n_quartos]"); ?></td></tr>
 <?php
 	}
 ?>
@@ -507,7 +512,7 @@ rotate(++x);window.setTimeout("apRotate()", 5000);}
 ?>
 <tr>
 <td width="20%" class="style48">
-<b>Suítes:</b></td><td width="80%" class="style48"><?php print("$not1[suites]"); ?></td></tr>
+<b>Suï¿½tes:</b></td><td width="80%" class="style48"><?php print("$not1[suites]"); ?></td></tr>
 <?php
 	}
 ?><trr>
@@ -522,7 +527,7 @@ rotate(++x);window.setTimeout("apRotate()", 5000);}
 	else
 	{
 ?>
-<b>Diária:</b>
+<b>Diï¿½ria:</b>
 <?php
 	}
 ?></td><td width="80%" class="style48">R$ <?php print("$valor"); ?>
@@ -549,14 +554,14 @@ rotate(++x);window.setTimeout("apRotate()", 5000);}
 		if($not1[finalidade]=='1' || $not1[finalidade]=='2' || $not1[finalidade]=='3' || $not1[finalidade]=='4' || $not1[finalidade]=='5' || $not1[finalidade]=='6' || $not1[finalidade]=='7' || $not1[finalidade]=='8' || $not1[finalidade]=='9' || $not1[finalidade]=='10' || $not1[finalidade]=='11' || $not1[finalidade]=='12' || $not1[finalidade]=='13' || $not1[finalidade]=='14'){
 		  	$mostra = " O valor ";
 		}else{
-		  	$mostra = "A diária ";
+		  	$mostra = "A diï¿½ria ";
 		}
 ?>
 		*<?=$mostra ?>pode ser alterado sem aviso pr&eacute;vio.
 	</td>
 </tr>
 <tr><td width="20%" class="style48">
-<b>Localização:</b></td><td width="80%" class="style48"><?php print("$not1[ci_nome]"); ?> - <?php print("$not1[e_uf]"); ?></td></tr>
+<b>Localizaï¿½ï¿½o:</b></td><td width="80%" class="style48"><?php print("$not1[ci_nome]"); ?> - <?php print("$not1[e_uf]"); ?></td></tr>
 <?php
 	if($not1[piscina] > 0){
 ?><tr><td width="20%" class="style48">
@@ -569,7 +574,7 @@ rotate(++x);window.setTimeout("apRotate()", 5000);}
 					if($not1[acomod] > 0){
 ?>
 					<tr><td width="20%" class="style48">
-					<b>Acomodações:</b></td><td class="style48">
+					<b>Acomodaï¿½ï¿½es:</b></td><td class="style48">
 					<?php print("$not1[acomod]"); ?> pessoas</td></tr>
 <?
 					}
@@ -580,13 +585,13 @@ rotate(++x);window.setTimeout("apRotate()", 5000);}
 			    if($not1[exibir_endereco]<>'1'){
 ?>
 			  <tr><td width="20%" class="style48">
-					<b>Endereço:</b></td><td class="style48">
+					<b>Endereï¿½o:</b></td><td class="style48">
 					<?php print("$not1[tipo_logradouro]"); ?> <?php print("$not1[end]"); ?>, <?php print("$not1[numero]"); ?></td></tr>
 <?
 			  	}elseif($not1[exibir_endereco]=='1' && $codi == $_SESSION['cod_imobiliaria']){
 ?>
 			  <tr><td width="20%" class="style48">
-					<b>Endereço:</b></td><td class="style48">
+					<b>Endereï¿½o:</b></td><td class="style48">
 					<?php print("$not1[tipo_logradouro]"); ?> <?php print("$not1[end]"); ?>, <?php print("$not1[numero]"); ?></td></tr>
 
 <?			  	  			    
@@ -637,7 +642,7 @@ rotate(++x);window.setTimeout("apRotate()", 5000);}
 					if($not1[dist_mar] > 0){
 ?>
 					<tr><td width="20%" class="style48">
-					<b>Distância do mar:</b></td><td class="style48">
+					<b>Distï¿½ncia do mar:</b></td><td class="style48">
 					<?php print("$not1[dist_mar] $not1[dist_tipo]"); ?></td></tr>
 <?
 					}
@@ -647,7 +652,7 @@ rotate(++x);window.setTimeout("apRotate()", 5000);}
 ?>
 <!--tr >
 <td width="150" class="style48">
-Especificação:</td><td width="410" class="style48"><?php print("$not1[especificacao]"); ?></td></tr>
+Especificaï¿½ï¿½o:</td><td width="410" class="style48"><?php print("$not1[especificacao]"); ?></td></tr>
 <?php
 //	}
 ?><tr-->
@@ -667,25 +672,25 @@ if($not1[finalidade]=='1'){
 }elseif($not1[finalidade]=='7'){
   $fin = "Venda_Todos";
 }elseif($not1[finalidade]=='8'){
-  $fin = "Locação_Anual_Rebri";
+  $fin = "Locaï¿½ï¿½o_Anual_Rebri";
 }elseif($not1[finalidade]=='9'){
-  $fin = "Locação_Anual_".$nomei;
+  $fin = "Locaï¿½ï¿½o_Anual_".$nomei;
 }elseif($not1[finalidade]=='10'){
-  $fin = "Locação_Anual_Parceria";
+  $fin = "Locaï¿½ï¿½o_Anual_Parceria";
 }elseif($not1[finalidade]=='11'){
-  $fin = "Locação_Anual_Terceiros";
+  $fin = "Locaï¿½ï¿½o_Anual_Terceiros";
 }elseif($not1[finalidade]=='12'){
-  $fin = "Locação_Anual_Off";
+  $fin = "Locaï¿½ï¿½o_Anual_Off";
 }elseif($not1[finalidade]=='13'){
-  $fin = "Locação_Anual_Locado";
+  $fin = "Locaï¿½ï¿½o_Anual_Locado";
 }elseif($not1[finalidade]=='14'){
-  $fin = "Locação_Anual_Todos";
+  $fin = "Locaï¿½ï¿½o_Anual_Todos";
 }elseif($not1[finalidade]=='15'){
-  $fin = "Locação_Temporada_".$nomei;
+  $fin = "Locaï¿½ï¿½o_Temporada_".$nomei;
 }elseif($not1[finalidade]=='16'){
-  $fin = "Locação_Temporada_Off";
+  $fin = "Locaï¿½ï¿½o_Temporada_Off";
 }elseif($not1[finalidade]=='17'){
-  $fin = "Locação_Temporada_Todos";
+  $fin = "Locaï¿½ï¿½o_Temporada_Todos";
 }
 ?>
 <tr>
@@ -720,7 +725,7 @@ if($not1[finalidade]=='6'){
 }
 ?>
 <tr><td colspan="4" align="left" class="style48">
-<b>Descrição do Imóvel:</b><p><?php print $descricao; ?></p>
+<b>Descriï¿½ï¿½o do Imï¿½vel:</b><p><?php print $descricao; ?></p>
 
             <table width=80% align=center border=0 cellspacing="1" cellpadding="0">
              <tr>
@@ -761,7 +766,7 @@ if($not1[finalidade]=='6'){
 if($video != ""){
 ?>
 			  <tr>
-               	<td colspan="2" class="style48"><b>Vídeo:</b></td>
+               	<td colspan="2" class="style48"><b>Vï¿½deo:</b></td>
               </tr> 
               <tr>
                 <td colspan="4" valign="top" class="style481" align="center">
@@ -838,7 +843,7 @@ AC_FL_RunContent( 'classid','clsid:D27CDB6E-AE6D-11cf-96B8-444553540000','codeba
         if($numrowscoo2 > 0){
 ?>          
           
-		<tr><td colspan="4" align="center" class="style7">Coordenadas incorretas!<br>Verifique se seguiu as observações descritas abaixo na parte de editar imóveis no campo "Coordenadas".<br><span class="style48">* Entre no site <a href="http://maps.google.com.br" target="_blank">Google Maps</a> e digite o endere&ccedil;o completo, cidade, estado (Ex: rua teste, 10, curitiba, pr) e depois clicar em &quot;Link&quot; e copiar e colar o codigo HTML nesse campo.Veja <a href="images/exemplo.jpg" target="_blank">aqui</a> o exemplo. </span></td></tr>	
+		<tr><td colspan="4" align="center" class="style7">Coordenadas incorretas!<br>Verifique se seguiu as observaï¿½ï¿½es descritas abaixo na parte de editar imï¿½veis no campo "Coordenadas".<br><span class="style48">* Entre no site <a href="http://maps.google.com.br" target="_blank">Google Maps</a> e digite o endere&ccedil;o completo, cidade, estado (Ex: rua teste, 10, curitiba, pr) e depois clicar em &quot;Link&quot; e copiar e colar o codigo HTML nesse campo.Veja <a href="images/exemplo.jpg" target="_blank">aqui</a> o exemplo. </span></td></tr>	
 <?			
   	        
         }else{		       
@@ -905,7 +910,7 @@ function valida()
   }
   if (document.form1.mes.value == "")
   {
-    alert("Por favor, digite o Mês de Entrada");
+    alert("Por favor, digite o Mï¿½s de Entrada");
     document.form1.mes.focus();
     return (false);
   }
@@ -917,19 +922,19 @@ function valida()
   }
   if (document.form1.dia1.value == "")
   {
-    alert("Por favor, digite o Dia de Saída");
+    alert("Por favor, digite o Dia de Saï¿½da");
     document.form1.dia1.focus();
     return (false);
   }
   if (document.form1.mes1.value == "")
   {
-    alert("Por favor, digite o Mês de Saída");
+    alert("Por favor, digite o Mï¿½s de Saï¿½da");
     document.form1.mes1.focus();
     return (false);
   }
   if (document.form1.ano1.value == "")
   {
-    alert("Por favor, digite o Ano de Saída");
+    alert("Por favor, digite o Ano de Saï¿½da");
     document.form1.ano1.focus();
     return (false);
   }
@@ -981,7 +986,7 @@ return true;
 <a href="javascript:history.back()" class="style48"><< Voltar <<</a>
 </td></tr-->
 <?php
-	//if($not1[finalidade] == "Locação"){	
+	//if($not1[finalidade] == "Locaï¿½ï¿½o"){	
 	//}
 	if(($not1[finalidade]=='9' || $not1[finalidade]=='10' || $not1[finalidade]=='11' || $not1[finalidade]=='12' || $not1[finalidade]=='13' || $not1[finalidade]=='14' || $not1[finalidade]=='15' || $not1[finalidade]=='16' || $not1[finalidade]=='17') && ($codi==$_SESSION['cod_imobiliaria'])){
 ?>
@@ -989,7 +994,7 @@ return true;
 <a href="carrinho.php?cod=<?php print("$not1[cod]"); ?>&qtd=1" class="style48"><b>Separar Chaves</b></a><br>
 </td></tr>
 <tr><td colspan=4 class="style48">
-<a href="detalhes2.php?cod=<?php print("$not1[cod]"); ?>&mes=<?php print("$mes"); ?>&ano=<?php print("$ano"); ?>&codi=<?php print("$codi"); ?>&nomei=<?php print("$nomei"); ?>&pastai=<?php print("$pastai"); ?>" class="style48"><b>Ver detalhes com calendário</b></a><br>
+<a href="detalhes2.php?cod=<?php print("$not1[cod]"); ?>&mes=<?php print("$mes"); ?>&ano=<?php print("$ano"); ?>&codi=<?php print("$codi"); ?>&nomei=<?php print("$nomei"); ?>&pastai=<?php print("$pastai"); ?>" class="style48"><b>Ver detalhes com calendï¿½rio</b></a><br>
 </td></tr>
 <?php
 //mysql_free_result($result3);

@@ -94,10 +94,14 @@ if($lista == "")
 	tipo_anga like '$tipo_anga' AND cod_imobiliaria='".$_SESSION['cod_imobiliaria']."' order by ref limit $from, 30";
 	}//data_fim
 	}//list
-	//echo $query1;
+	echo $query1;
+    //die();
 	$result1 = mysql_query($query1);
 	$numrows1 = mysql_num_rows($result1);
-
+	echo "<br>";
+	//print_r(mysql_fetch_array($result1));
+	print_r($numrows1);
+	//die();
 	    $btipo = mysql_query("SELECT t_nome FROM rebri_tipo WHERE t_cod='".$tipo1."'");
 		while($linha = mysql_fetch_array($btipo)){
        		$tipo = $linha['t_nome'];
@@ -113,11 +117,11 @@ if($lista == "")
                    <td class=style1><b>Metragem</b></td>
                    <td class=style1><b>Valor</b></td>
                    <td class=style1><b>Finalidade</b></td>
-                   <td class=style1><b>Data Término</b></td>
+                   <td class=style1><b>Data Tï¿½rmino</b></td>
 <?
 if ($_SESSION[im_site_padrao] == "S" || $_SESSION[cod_imobiliaria] == "3") {
 ?>
-                   <td class=style1><b>Lançamento</b></td>
+                   <td class=style1><b>Lanï¿½amento</b></td>
 <?
 }
 ?>
@@ -125,7 +129,7 @@ if ($_SESSION[im_site_padrao] == "S" || $_SESSION[cod_imobiliaria] == "3") {
 <?
 if ($_SESSION[im_site_padrao] == "S" || $_SESSION[cod_imobiliaria] == "3") {
 ?>
-                   <td class=style1><b>Destaque Site Padrão</b></td>
+                   <td class=style1><b>Destaque Site Padrï¿½o</b></td>
 <?
 }
 ?>
@@ -164,25 +168,25 @@ if($not[finalidade]=='1'){
 }elseif($not[finalidade]=='7'){
   $fin = "Venda_Todos";
 }elseif($not[finalidade]=='8'){
-  $fin = "Locação_Anual_Rebri";
+  $fin = "Locaï¿½ï¿½o_Anual_Rebri";
 }elseif($not[finalidade]=='9'){
-  $fin = "Locação_Anual_".$_SESSION['nome_imobiliaria'];
+  $fin = "Locaï¿½ï¿½o_Anual_".$_SESSION['nome_imobiliaria'];
 }elseif($not[finalidade]=='10'){
-  $fin = "Locação_Anual_Parceria";
+  $fin = "Locaï¿½ï¿½o_Anual_Parceria";
 }elseif($not[finalidade]=='11'){
-  $fin = "Locação_Anual_Terceiros";
+  $fin = "Locaï¿½ï¿½o_Anual_Terceiros";
 }elseif($not[finalidade]=='12'){
-  $fin = "Locação_Anual_Off";
+  $fin = "Locaï¿½ï¿½o_Anual_Off";
 }elseif($not[finalidade]=='13'){
-  $fin = "Locação_Anual_Locado";
+  $fin = "Locaï¿½ï¿½o_Anual_Locado";
 }elseif($not[finalidade]=='14'){
-  $fin = "Locação_Anual_Todos";
+  $fin = "Locaï¿½ï¿½o_Anual_Todos";
 }elseif($not[finalidade]=='15'){
-  $fin = "Locação_Temporada_".$_SESSION['nome_imobiliaria'];
+  $fin = "Locaï¿½ï¿½o_Temporada_".$_SESSION['nome_imobiliaria'];
 }elseif($not[finalidade]=='16'){
-  $fin = "Locação_Temporada_Off";
+  $fin = "Locaï¿½ï¿½o_Temporada_Off";
 }elseif($not[finalidade]=='17'){
-  $fin = "Locação_Temporada_Todos";
+  $fin = "Locaï¿½ï¿½o_Temporada_Todos";
 }
 ?>
 <tr class="<?php print("$fundo"); ?>"><td class="<?php if($not[valor_oferta] > 0){ echo "style7"; }else{ echo "style1"; } ?>">
@@ -192,11 +196,11 @@ if($not[finalidade]=='1'){
 <?php print($fin); ?></td><td class="<?php if($not[valor_oferta] > 0){ echo "style7"; }else{ echo "style1"; } ?>">
 <?php print("$dia1/$mes1/$ano1"); ?></td>
 <? if ($_SESSION[im_site_padrao] == "S" || $_SESSION[cod_imobiliaria] == "3") { ?>
-<td class="<?php if($not[valor_oferta] > 0){ echo "style7"; }else{ echo "style1"; } ?>" align=center><? if ($not[lancamento] == "1") { print "<strong>Sim</strong>"; } else { print "Não"; }?> </td>
+<td class="<?php if($not[valor_oferta] > 0){ echo "style7"; }else{ echo "style1"; } ?>" align=center><? if ($not[lancamento] == "1") { print "<strong>Sim</strong>"; } else { print "Nï¿½o"; }?> </td>
 <? } ?>
-<td class="<?php if($not[valor_oferta] > 0){ echo "style7"; }else{ echo "style1"; } ?>" align=center><? if ($not[destaque] == "1") { print "<strong>Sim</strong>"; } else { print "Não"; }?> </td>
+<td class="<?php if($not[valor_oferta] > 0){ echo "style7"; }else{ echo "style1"; } ?>" align=center><? if ($not[destaque] == "1") { print "<strong>Sim</strong>"; } else { print "Nï¿½o"; }?> </td>
 <? if ($_SESSION[im_site_padrao] == "S" || $_SESSION[cod_imobiliaria] == "3") { ?>
-<td class="<?php if($not[valor_oferta] > 0){ echo "style7"; }else{ echo "style1"; } ?>" align=center><? if ($not[destaque_padrao] == "1") { print "<strong>Sim</strong>"; } else { print "Não"; }?> </td>
+<td class="<?php if($not[valor_oferta] > 0){ echo "style7"; }else{ echo "style1"; } ?>" align=center><? if ($not[destaque_padrao] == "1") { print "<strong>Sim</strong>"; } else { print "Nï¿½o"; }?> </td>
 <? } ?>
 
 </tr>
@@ -205,7 +209,7 @@ if($not[finalidade]=='1'){
 	}
 ?>
 <tr><td colspan="8" class="fundoTabela style1">
-*Imóveis em vermelho estão cadastrados com valor em oferta</td></tr>
+*Imï¿½veis em vermelho estï¿½o cadastrados com valor em oferta</td></tr>
 <?php
 	if($list == ""){
 	$query2 = "select count(cod) as contador 
@@ -229,7 +233,7 @@ if($not[finalidade]=='1'){
     $url = "p_lista_edit.php?tipo1=".$tipo1."&campo=".$campo."&chave=".$chave."&query_finalidade=".$query_finalidade."&query_tipo=".$query_tipo."&finalidade=".$finalidade."&angariador=".$angariador."&tipo_anga=".$tipo_anga."&tipo_logradouro=".$tipo_logradouro."&end=".$end."&numero_end=".$numero_end."&busca=".$busca."&list=".$list."&screen=";
 ?>
                   <tr>
-				  	<td colspan="8" class="fundoTabelaTitulo style1" align="center"><b>Foram encontrados <?php print("$not2[contador]"); ?> imóveis</b></td>
+				  	<td colspan="8" class="fundoTabelaTitulo style1" align="center"><b>Foram encontrados <?php print("$not2[contador]"); ?> imï¿½veis</b></td>
 				  </tr>
                   <tr>
 				  	<td colspan="8" align="center" class="style1">
@@ -272,8 +276,8 @@ if($not[finalidade]=='1'){
    									}
 								?>
                   				</td>
-                  				<td width="10%" class="style1" align="center"><a href="p_lista_edit.php?tipo1=<?=$tipo1 ?>&campo=<?=$campo?>&chave=<?=$chave ?>&query_finalidade=<?=$query_finalidade ?>&query_tipo=<?=$query_tipo ?>&finalidade=<?=$finalidade ?>&angariador=<?=$angariador ?>&tipo_anga=<?=$tipo_anga ?>&tipo_logradouro=<?=$tipo_logradouro ?>&end=<?=$end ?>&numero_end=<?=$numero_end ?>&busca=<?=$busca ?>&list=<?=$list ?>&screen=<?=$screen+1?>" class="style6"><? if ($screen < $paginas) { ?>| Próxima |<?}?></a></td>
-                  				<td width="10%" class="style1" align="center"><a href="p_lista_edit.php?tipo1=<?=$tipo1 ?>&campo=<?=$campo?>&chave=<?=$chave ?>&query_finalidade=<?=$query_finalidade ?>&query_tipo=<?=$query_tipo ?>&finalidade=<?=$finalidade ?>&angariador=<?=$angariador ?>&tipo_anga=<?=$tipo_anga ?>&tipo_logradouro=<?=$tipo_logradouro ?>&end=<?=$end ?>&numero_end=<?=$numero_end ?>&busca=<?=$busca ?>&list=<?=$list ?>&screen=<?=$paginas?>" class="style7"><? if ($screen < $paginas) { ?>| Última |<?}?></a></td>
+                  				<td width="10%" class="style1" align="center"><a href="p_lista_edit.php?tipo1=<?=$tipo1 ?>&campo=<?=$campo?>&chave=<?=$chave ?>&query_finalidade=<?=$query_finalidade ?>&query_tipo=<?=$query_tipo ?>&finalidade=<?=$finalidade ?>&angariador=<?=$angariador ?>&tipo_anga=<?=$tipo_anga ?>&tipo_logradouro=<?=$tipo_logradouro ?>&end=<?=$end ?>&numero_end=<?=$numero_end ?>&busca=<?=$busca ?>&list=<?=$list ?>&screen=<?=$screen+1?>" class="style6"><? if ($screen < $paginas) { ?>| Prï¿½xima |<?}?></a></td>
+                  				<td width="10%" class="style1" align="center"><a href="p_lista_edit.php?tipo1=<?=$tipo1 ?>&campo=<?=$campo?>&chave=<?=$chave ?>&query_finalidade=<?=$query_finalidade ?>&query_tipo=<?=$query_tipo ?>&finalidade=<?=$finalidade ?>&angariador=<?=$angariador ?>&tipo_anga=<?=$tipo_anga ?>&tipo_logradouro=<?=$tipo_logradouro ?>&end=<?=$end ?>&numero_end=<?=$numero_end ?>&busca=<?=$busca ?>&list=<?=$list ?>&screen=<?=$paginas?>" class="style7"><? if ($screen < $paginas) { ?>| ï¿½ltima |<?}?></a></td>
                				</tr>
    						</table>
 
